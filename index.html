@@ -335,6 +335,19 @@
             </a></li>
         </ul>
       </div>
+      <div class="mailing-list">
+        <h2 class="mailing-list-title">Підпишіться на розсилку</h2>
+        <div class="mailing-list-footer">
+          <label>
+            <input type="email" name="user-email" placeholder="E-mail" required class="mailing-list-mail">
+          </label>
+          <button type="submit" class="mailing-list-btn">Підписатися
+            <svg class="mailing-list-icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-icon-send-1"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
   </footer>
   <div class="backdrop is-hidden" data-modal>
@@ -344,9 +357,43 @@
           <use href="./images/symbol-defs.svg#icon-close"></use>
         </svg>
       </button>
+      <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+      <form class="modal-form">
+        <label class="modal-title">Ім'я</label>
+        <div class="input-wrap">
+          <input type="text" name="user-name" placeholder="Введіть ім'я" class="modal-input" required>
+          <svg class="icon-wrap" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-person-black"></use>
+          </svg>
+        </div>
+        <label class="modal-title">Телефон</label>
+        <div class="input-wrap">
+          <input type="tel" name="user-phone" placeholder="Номер телефону" class="modal-input" required>
+          <svg class="icon-wrap" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+          </svg>
+        </div>
+        <label class="modal-title">Пошта</label>
+        <div class="input-wrap">
+          <input type="email" name="user-email" placeholder="Пошта" class="modal-input" required>
+          <svg class="icon-wrap" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-email-black"></use>
+          </svg>
+        </div>
+        <label class="modal-title">Коментар</label>
+        <div class="form-textarea"><textarea name="feedback" rows="5" placeholder="Введіть текст"
+            class="modal-textarea"></textarea></div>
+        <div class="input-wrap-submit">
+          <input type="checkbox" name="hobby" checked />
+          <label class="modal-title-submit">Погоджуюся з розсилкою та приймаю <span class="span-text">Умови
+              договору</span></label>
+        </div>
+        <button type="submit" class="form-btn">Відправити</button>
+      </form>
     </div>
   </div>
   <script src="./Js/modal.js"></script>
+
 </body>
 
 </html>
