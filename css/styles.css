@@ -600,6 +600,7 @@ width: 270px;
 .mailing-list-footer{
     text-align: center;
     position: relative;
+    display: flex;
 }
 
 .mailing-list-mail {
@@ -614,6 +615,7 @@ width: 270px;
         transition-property: transform, filter;
             transition-duration: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            margin-right: 12px;
 }
 
 .mailing-list-mail:focus{
@@ -622,8 +624,11 @@ width: 270px;
 }
 
 .mailing-list-btn {
-    width: 200px;
-        height: 50px;
+    display: flex;
+    padding-top: 5px;
+    padding-right: 28px;
+    padding-bottom: 5px;
+    padding-left: 28px;
         left: 1185px;
         top: 2784px;
         background: #2196F3;
@@ -638,7 +643,7 @@ width: 270px;
             letter-spacing: 0.06em;
             color: #FFFFFF;
             padding-right: 40px;
-            transition-property: transform box-shadow;
+            transition-property: box-shadow;
                 transition-duration: 250ms;
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -648,12 +653,12 @@ width: 270px;
 }
 
 .mailing-list-icon {
-    position: absolute;
+   /* position: absolute;*/
         fill: #FFFFFF;
         margin-left: 10px;
-
+/*
         bottom: 50%;
-        transform: translateY(50%);
+        transform: translateY(50%);*/
 }
 /*-------------------------PORTFOLIO-------------------------*/
 /*--------------------------MAIN------------------------------*/
@@ -986,6 +991,11 @@ opacity: 1;
         transform: translateY(-50%);
         align-items: center;
         margin-bottom: 30px;
+}
+
+.checkbox{
+    border: 1px solid black;
+    background: #FFFFFF;
 }
 
 .modal-title-submit{
