@@ -1013,6 +1013,7 @@ opacity: 1;
     border-radius: 4px;
     margin-right: 10px;
 }
+
 .checkbox:checked + .icon-checkbox{
     border-color: #2196F3;
     background-color: #2196F3;
