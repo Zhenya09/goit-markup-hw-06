@@ -1012,7 +1012,6 @@ opacity: 1;
     border: 2px solid #212121;
     border-radius: 4px;
     margin-right: 10px;
-    background-color: #FFFFFF;
 }
 
 .checkbox:checked + .icon-checkbox{
