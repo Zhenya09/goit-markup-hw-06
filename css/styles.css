@@ -1012,14 +1012,17 @@ opacity: 1;
     border: 2px solid #212121;
     border-radius: 4px;
     margin-right: 10px;
+    background-color: #FFFFFF;
 }
 
 .checkbox:checked + .icon-checkbox{
-    border-color: #2196F3;
+   border-color: #2196F3;
     background-color: #2196F3;
-    background-image: url(../images/icon-check-1-1.svg);
+    background-image: url(../images/icon-check-2-1.svg);
     background-size: contain;
+    background-position: center;
     background-origin: border-box;
+    background-repeat: no-repeat;
     
 }
 
@@ -1053,8 +1056,10 @@ opacity: 1;
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
-        width: 200px;
-        height: 50px;
+        padding-top: 10px;
+        padding-right: 52px;
+        padding-bottom: 10px;
+        padding-left: 52px;
         left: 700px;
         top: 712px;
         background: #2196F3;
